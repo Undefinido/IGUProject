@@ -1,0 +1,3636 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 8
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 8
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 3
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVRFiltering: 0
+    m_PVRFilteringMode: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousColorSigma: 1
+    m_PVRFilteringAtrousNormalSigma: 1
+    m_PVRFilteringAtrousPositionSigma: 1
+  m_LightingDataAsset: {fileID: 112000002, guid: 9e5424a44eec2404fbf57ff5161f271e,
+    type: 2}
+  m_ShadowMaskMode: 2
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &55802416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 55802417}
+  m_Layer: 0
+  m_Name: Techo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &55802417
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 55802416}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1077411493}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &71858770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 71858776}
+  - component: {fileID: 71858775}
+  - component: {fileID: 71858774}
+  - component: {fileID: 71858773}
+  - component: {fileID: 71858771}
+  m_Layer: 5
+  m_Name: HasGanadoWindow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &71858771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 71858770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 111cdc380bd619541900048de41ecd98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  youWonWindow: {fileID: 71858770}
+--- !u!114 &71858773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 71858770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &71858774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 71858770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &71858775
+Canvas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 71858770}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &71858776
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 71858770}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1271662630}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!1 &202471711
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 202471712}
+  - component: {fileID: 202471714}
+  - component: {fileID: 202471713}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &202471712
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 202471711}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3.125, y: 9.090909, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1271662630}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -7, y: -15}
+  m_SizeDelta: {x: 233, y: 55}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &202471713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 202471711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 64a5513981beef044bd54462d9b79d13, type: 3}
+    m_FontSize: 13
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 300
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: "\xA1Enhorabuena! Has completado el minijuego, alza un dedo o pulsa sobre
+    el recuadro para volver al men\xFA"
+--- !u!222 &202471714
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 202471711}
+--- !u!1 &343695798
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 343695802}
+  - component: {fileID: 343695801}
+  - component: {fileID: 343695800}
+  - component: {fileID: 343695799}
+  - component: {fileID: 343695804}
+  m_Layer: 5
+  m_Name: SalidaLabWindow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &343695799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 343695798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &343695800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 343695798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &343695801
+Canvas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 343695798}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &343695802
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 343695798}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 416693138}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &343695804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 343695798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 111cdc380bd619541900048de41ecd98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  youWonWindow: {fileID: 71858770}
+--- !u!1 &416693137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 416693138}
+  - component: {fileID: 416693140}
+  - component: {fileID: 416693139}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &416693138
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 416693137}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.32, y: 0.11, z: 1}
+  m_Children:
+  - {fileID: 1823921778}
+  - {fileID: 464545121}
+  m_Father: {fileID: 343695802}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 1, y: 1}
+  m_SizeDelta: {x: 73, y: 127}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &416693139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 416693137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: a781c82cecc141143bb13e71d88efa99, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &416693140
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 416693137}
+--- !u!1 &464545120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 464545121}
+  - component: {fileID: 464545124}
+  - component: {fileID: 464545123}
+  - component: {fileID: 464545122}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &464545121
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 464545120}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3.125, y: 9.090909, z: 1}
+  m_Children:
+  - {fileID: 1308397785}
+  m_Father: {fileID: 416693138}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.00012206999, y: 0.00082396995}
+  m_SizeDelta: {x: 449.6, y: 96.58}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &464545122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 464545120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 464545123}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 71858771}
+        m_MethodName: nextLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &464545123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 464545120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &464545124
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 464545120}
+--- !u!1 &509442659
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 509442660}
+  - component: {fileID: 509442662}
+  - component: {fileID: 509442661}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &509442660
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 509442659}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 854865495}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &509442661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 509442659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Button
+--- !u!222 &509442662
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 509442659}
+--- !u!1 &529851064
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 529851065}
+  m_Layer: 0
+  m_Name: Paredes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &529851065
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 529851064}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1077411493}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &833189427
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 833189428}
+  - component: {fileID: 833189430}
+  - component: {fileID: 833189429}
+  m_Layer: 5
+  m_Name: Boton esc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &833189428
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 833189427}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1326839917}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -310, y: 215}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &833189429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 833189427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.89705884, g: 0.82136387, b: 0.21107265, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 8020908d2d7e8914fae584b78aced0c8, type: 3}
+    m_FontSize: 20
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 300
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: ESC - SALIR
+--- !u!222 &833189430
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 833189427}
+--- !u!1 &854865494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 854865495}
+  - component: {fileID: 854865498}
+  - component: {fileID: 854865497}
+  - component: {fileID: 854865496}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &854865495
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 854865494}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3.125, y: 9.090909, z: 1}
+  m_Children:
+  - {fileID: 509442660}
+  m_Father: {fileID: 1271662630}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.00012206999, y: 0.00082396995}
+  m_SizeDelta: {x: 449.6, y: 96.58}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &854865496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 854865494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 854865497}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &854865497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 854865494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &854865498
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 854865494}
+--- !u!1 &1039862315
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1039862320}
+  - component: {fileID: 1039862319}
+  - component: {fileID: 1039862318}
+  - component: {fileID: 1039862317}
+  - component: {fileID: 1039862316}
+  - component: {fileID: 1039862321}
+  - component: {fileID: 1039862322}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1039862316
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1039862315}
+  m_Enabled: 1
+--- !u!124 &1039862317
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1039862315}
+  m_Enabled: 1
+--- !u!92 &1039862318
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1039862315}
+  m_Enabled: 1
+--- !u!20 &1039862319
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1039862315}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
+--- !u!4 &1039862320
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1039862315}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: 0, y: 10, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: -180}
+--- !u!114 &1039862321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1039862315}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d411c03859c70f44d89b8c3366e706ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+--- !u!114 &1039862322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1039862315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4c2ab6c11908274ca5f219e8c52e16e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 2087613984}
+--- !u!1 &1077411492
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1077411493}
+  - component: {fileID: 1077411494}
+  m_Layer: 0
+  m_Name: Lab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1077411493
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1077411492}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.3688459, y: 5.5684643, z: -0.25920463}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 55802417}
+  - {fileID: 529851065}
+  - {fileID: 1668981530}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1077411494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1077411492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd8b3f8b95495b8429c3abef2d3a6481, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  antPosition:
+    FrameId: 0
+    Id: 0
+    Fingers:
+    - bones:
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      Type: 0
+      Id: 0
+      HandId: 0
+      TipPosition:
+        x: 0
+        y: 0
+        z: 0
+      TipVelocity:
+        x: 0
+        y: 0
+        z: 0
+      Direction:
+        x: 0
+        y: 0
+        z: 0
+      Width: 0
+      Length: 0
+      IsExtended: 0
+      StabilizedTipPosition:
+        x: 0
+        y: 0
+        z: 0
+      TimeVisible: 0
+    - bones:
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      Type: 0
+      Id: 0
+      HandId: 0
+      TipPosition:
+        x: 0
+        y: 0
+        z: 0
+      TipVelocity:
+        x: 0
+        y: 0
+        z: 0
+      Direction:
+        x: 0
+        y: 0
+        z: 0
+      Width: 0
+      Length: 0
+      IsExtended: 0
+      StabilizedTipPosition:
+        x: 0
+        y: 0
+        z: 0
+      TimeVisible: 0
+    - bones:
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      Type: 0
+      Id: 0
+      HandId: 0
+      TipPosition:
+        x: 0
+        y: 0
+        z: 0
+      TipVelocity:
+        x: 0
+        y: 0
+        z: 0
+      Direction:
+        x: 0
+        y: 0
+        z: 0
+      Width: 0
+      Length: 0
+      IsExtended: 0
+      StabilizedTipPosition:
+        x: 0
+        y: 0
+        z: 0
+      TimeVisible: 0
+    - bones:
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      Type: 0
+      Id: 0
+      HandId: 0
+      TipPosition:
+        x: 0
+        y: 0
+        z: 0
+      TipVelocity:
+        x: 0
+        y: 0
+        z: 0
+      Direction:
+        x: 0
+        y: 0
+        z: 0
+      Width: 0
+      Length: 0
+      IsExtended: 0
+      StabilizedTipPosition:
+        x: 0
+        y: 0
+        z: 0
+      TimeVisible: 0
+    - bones:
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      Type: 0
+      Id: 0
+      HandId: 0
+      TipPosition:
+        x: 0
+        y: 0
+        z: 0
+      TipVelocity:
+        x: 0
+        y: 0
+        z: 0
+      Direction:
+        x: 0
+        y: 0
+        z: 0
+      Width: 0
+      Length: 0
+      IsExtended: 0
+      StabilizedTipPosition:
+        x: 0
+        y: 0
+        z: 0
+      TimeVisible: 0
+    PalmPosition:
+      x: 0
+      y: 0
+      z: 0
+    PalmVelocity:
+      x: 0
+      y: 0
+      z: 0
+    PalmNormal:
+      x: 0
+      y: 0
+      z: 0
+    Direction:
+      x: 0
+      y: 0
+      z: 0
+    Rotation:
+      x: 0
+      y: 0
+      z: 0
+      w: 0
+    GrabStrength: 0
+    GrabAngle: 0
+    PinchStrength: 0
+    PinchDistance: 0
+    PalmWidth: 0
+    StabilizedPalmPosition:
+      x: 0
+      y: 0
+      z: 0
+    WristPosition:
+      x: 0
+      y: 0
+      z: 0
+    TimeVisible: 0
+    Confidence: 0
+    IsLeft: 0
+    Arm:
+      PrevJoint:
+        x: 0
+        y: 0
+        z: 0
+      NextJoint:
+        x: 0
+        y: 0
+        z: 0
+      Center:
+        x: 0
+        y: 0
+        z: 0
+      Direction:
+        x: 0
+        y: 0
+        z: 0
+      Length: 0
+      Width: 0
+      Type: -1
+      Rotation:
+        x: 0
+        y: 0
+        z: 0
+        w: 0
+  actPosition:
+    FrameId: 0
+    Id: 0
+    Fingers:
+    - bones:
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      Type: 0
+      Id: 0
+      HandId: 0
+      TipPosition:
+        x: 0
+        y: 0
+        z: 0
+      TipVelocity:
+        x: 0
+        y: 0
+        z: 0
+      Direction:
+        x: 0
+        y: 0
+        z: 0
+      Width: 0
+      Length: 0
+      IsExtended: 0
+      StabilizedTipPosition:
+        x: 0
+        y: 0
+        z: 0
+      TimeVisible: 0
+    - bones:
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      Type: 0
+      Id: 0
+      HandId: 0
+      TipPosition:
+        x: 0
+        y: 0
+        z: 0
+      TipVelocity:
+        x: 0
+        y: 0
+        z: 0
+      Direction:
+        x: 0
+        y: 0
+        z: 0
+      Width: 0
+      Length: 0
+      IsExtended: 0
+      StabilizedTipPosition:
+        x: 0
+        y: 0
+        z: 0
+      TimeVisible: 0
+    - bones:
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      Type: 0
+      Id: 0
+      HandId: 0
+      TipPosition:
+        x: 0
+        y: 0
+        z: 0
+      TipVelocity:
+        x: 0
+        y: 0
+        z: 0
+      Direction:
+        x: 0
+        y: 0
+        z: 0
+      Width: 0
+      Length: 0
+      IsExtended: 0
+      StabilizedTipPosition:
+        x: 0
+        y: 0
+        z: 0
+      TimeVisible: 0
+    - bones:
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      Type: 0
+      Id: 0
+      HandId: 0
+      TipPosition:
+        x: 0
+        y: 0
+        z: 0
+      TipVelocity:
+        x: 0
+        y: 0
+        z: 0
+      Direction:
+        x: 0
+        y: 0
+        z: 0
+      Width: 0
+      Length: 0
+      IsExtended: 0
+      StabilizedTipPosition:
+        x: 0
+        y: 0
+        z: 0
+      TimeVisible: 0
+    - bones:
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      Type: 0
+      Id: 0
+      HandId: 0
+      TipPosition:
+        x: 0
+        y: 0
+        z: 0
+      TipVelocity:
+        x: 0
+        y: 0
+        z: 0
+      Direction:
+        x: 0
+        y: 0
+        z: 0
+      Width: 0
+      Length: 0
+      IsExtended: 0
+      StabilizedTipPosition:
+        x: 0
+        y: 0
+        z: 0
+      TimeVisible: 0
+    PalmPosition:
+      x: 0
+      y: 0
+      z: 0
+    PalmVelocity:
+      x: 0
+      y: 0
+      z: 0
+    PalmNormal:
+      x: 0
+      y: 0
+      z: 0
+    Direction:
+      x: 0
+      y: 0
+      z: 0
+    Rotation:
+      x: 0
+      y: 0
+      z: 0
+      w: 0
+    GrabStrength: 0
+    GrabAngle: 0
+    PinchStrength: 0
+    PinchDistance: 0
+    PalmWidth: 0
+    StabilizedPalmPosition:
+      x: 0
+      y: 0
+      z: 0
+    WristPosition:
+      x: 0
+      y: 0
+      z: 0
+    TimeVisible: 0
+    Confidence: 0
+    IsLeft: 0
+    Arm:
+      PrevJoint:
+        x: 0
+        y: 0
+        z: 0
+      NextJoint:
+        x: 0
+        y: 0
+        z: 0
+      Center:
+        x: 0
+        y: 0
+        z: 0
+      Direction:
+        x: 0
+        y: 0
+        z: 0
+      Length: 0
+      Width: 0
+      Type: -1
+      Rotation:
+        x: 0
+        y: 0
+        z: 0
+        w: 0
+  handplayer:
+    FrameId: 0
+    Id: 0
+    Fingers:
+    - bones:
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      Type: 0
+      Id: 0
+      HandId: 0
+      TipPosition:
+        x: 0
+        y: 0
+        z: 0
+      TipVelocity:
+        x: 0
+        y: 0
+        z: 0
+      Direction:
+        x: 0
+        y: 0
+        z: 0
+      Width: 0
+      Length: 0
+      IsExtended: 0
+      StabilizedTipPosition:
+        x: 0
+        y: 0
+        z: 0
+      TimeVisible: 0
+    - bones:
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      Type: 0
+      Id: 0
+      HandId: 0
+      TipPosition:
+        x: 0
+        y: 0
+        z: 0
+      TipVelocity:
+        x: 0
+        y: 0
+        z: 0
+      Direction:
+        x: 0
+        y: 0
+        z: 0
+      Width: 0
+      Length: 0
+      IsExtended: 0
+      StabilizedTipPosition:
+        x: 0
+        y: 0
+        z: 0
+      TimeVisible: 0
+    - bones:
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      Type: 0
+      Id: 0
+      HandId: 0
+      TipPosition:
+        x: 0
+        y: 0
+        z: 0
+      TipVelocity:
+        x: 0
+        y: 0
+        z: 0
+      Direction:
+        x: 0
+        y: 0
+        z: 0
+      Width: 0
+      Length: 0
+      IsExtended: 0
+      StabilizedTipPosition:
+        x: 0
+        y: 0
+        z: 0
+      TimeVisible: 0
+    - bones:
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      Type: 0
+      Id: 0
+      HandId: 0
+      TipPosition:
+        x: 0
+        y: 0
+        z: 0
+      TipVelocity:
+        x: 0
+        y: 0
+        z: 0
+      Direction:
+        x: 0
+        y: 0
+        z: 0
+      Width: 0
+      Length: 0
+      IsExtended: 0
+      StabilizedTipPosition:
+        x: 0
+        y: 0
+        z: 0
+      TimeVisible: 0
+    - bones:
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      - PrevJoint:
+          x: 0
+          y: 0
+          z: 0
+        NextJoint:
+          x: 0
+          y: 0
+          z: 0
+        Center:
+          x: 0
+          y: 0
+          z: 0
+        Direction:
+          x: 0
+          y: 0
+          z: 0
+        Length: 0
+        Width: 0
+        Type: -1
+        Rotation:
+          x: 0
+          y: 0
+          z: 0
+          w: 0
+      Type: 0
+      Id: 0
+      HandId: 0
+      TipPosition:
+        x: 0
+        y: 0
+        z: 0
+      TipVelocity:
+        x: 0
+        y: 0
+        z: 0
+      Direction:
+        x: 0
+        y: 0
+        z: 0
+      Width: 0
+      Length: 0
+      IsExtended: 0
+      StabilizedTipPosition:
+        x: 0
+        y: 0
+        z: 0
+      TimeVisible: 0
+    PalmPosition:
+      x: 0
+      y: 0
+      z: 0
+    PalmVelocity:
+      x: 0
+      y: 0
+      z: 0
+    PalmNormal:
+      x: 0
+      y: 0
+      z: 0
+    Direction:
+      x: 0
+      y: 0
+      z: 0
+    Rotation:
+      x: 0
+      y: 0
+      z: 0
+      w: 0
+    GrabStrength: 0
+    GrabAngle: 0
+    PinchStrength: 0
+    PinchDistance: 0
+    PalmWidth: 0
+    StabilizedPalmPosition:
+      x: 0
+      y: 0
+      z: 0
+    WristPosition:
+      x: 0
+      y: 0
+      z: 0
+    TimeVisible: 0
+    Confidence: 0
+    IsLeft: 0
+    Arm:
+      PrevJoint:
+        x: 0
+        y: 0
+        z: 0
+      NextJoint:
+        x: 0
+        y: 0
+        z: 0
+      Center:
+        x: 0
+        y: 0
+        z: 0
+      Direction:
+        x: 0
+        y: 0
+        z: 0
+      Length: 0
+      Width: 0
+      Type: -1
+      Rotation:
+        x: 0
+        y: 0
+        z: 0
+        w: 0
+  fingers: []
+--- !u!1 &1146128297
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1146128299}
+  - component: {fileID: 1146128298}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1146128298
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1146128297}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1146128299
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1146128297}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1271662629
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1271662630}
+  - component: {fileID: 1271662632}
+  - component: {fileID: 1271662631}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1271662630
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1271662629}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.32, y: 0.11, z: 1}
+  m_Children:
+  - {fileID: 202471712}
+  - {fileID: 854865495}
+  m_Father: {fileID: 71858776}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 1, y: -5}
+  m_SizeDelta: {x: 71, y: 277}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1271662631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1271662629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: a781c82cecc141143bb13e71d88efa99, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1271662632
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1271662629}
+--- !u!1 &1308397784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1308397785}
+  - component: {fileID: 1308397787}
+  - component: {fileID: 1308397786}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1308397785
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1308397784}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 464545121}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1308397786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1308397784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Button
+--- !u!222 &1308397787
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1308397784}
+--- !u!1 &1326839913
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1326839917}
+  - component: {fileID: 1326839916}
+  - component: {fileID: 1326839915}
+  - component: {fileID: 1326839914}
+  - component: {fileID: 1326839918}
+  m_Layer: 5
+  m_Name: Controles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1326839914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1326839913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1326839915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1326839913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &1326839916
+Canvas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1326839913}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1326839917
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1326839913}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 833189428}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &1326839918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1326839913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 111cdc380bd619541900048de41ecd98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  youWonWindow: {fileID: 0}
+--- !u!1 &1340591988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1340591990}
+  - component: {fileID: 1340591989}
+  m_Layer: 0
+  m_Name: Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1340591989
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1340591988}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: ddc83eb9931d28b448b88f8478e459a7, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.025
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!4 &1340591990
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1340591988}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 567, y: 334.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1668981529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1668981530}
+  m_Layer: 0
+  m_Name: Suelo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1668981530
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1668981529}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1077411493}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1823921777
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1823921778}
+  - component: {fileID: 1823921780}
+  - component: {fileID: 1823921779}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1823921778
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1823921777}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3.125, y: 9.090909, z: 1}
+  m_Children: []
+  m_Father: {fileID: 416693138}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -7, y: -2}
+  m_SizeDelta: {x: 248, y: 44}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1823921779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1823921777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 64a5513981beef044bd54462d9b79d13, type: 3}
+    m_FontSize: 13
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 5
+    m_MaxSize: 300
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: "\xA1Genial! Llegaste a la salida, alza un dedo para continuar o pulsa en
+    el recuadro con el rat\xF3n"
+--- !u!222 &1823921780
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1823921777}
+--- !u!1 &2087613984
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2087613986}
+  - component: {fileID: 2087613987}
+  m_Layer: 0
+  m_Name: GameManager (Maze Loader Holder)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2087613986
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2087613984}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.3688459, y: 5.5684643, z: -0.25920463}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2087613987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2087613984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46ed67f130599a843815f6dcbdeab29f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wall: {fileID: 1868213080338604, guid: 2a571ace6952b154ca2ff06b0540f264, type: 2}
+  player: {fileID: 1099181004807298, guid: 6ee9f2c23f2dd1642a19e35e0a3a1cca, type: 2}
+  salida: {fileID: 1482637940784296, guid: f3382c79b7bf1f14dae141332c9c118b, type: 2}
+  size: 5.4
