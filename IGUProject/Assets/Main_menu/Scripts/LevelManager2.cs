@@ -39,10 +39,12 @@ public class LevelManager2 : MonoBehaviour {
             {
                 this.gameObject.SetActive(false);
                 (this.GetComponent(typeof(LevelManager2)) as MonoBehaviour).enabled = false;
-                //mainMenu2.SetActive(false);
-                //(this.GetComponent(typeof(LevelManager2)) as MonoBehaviour).enabled = false;
                 mainMenu1.SetActive(true);
                 (mainMenu1.GetComponent(typeof(LevelManager)) as MonoBehaviour).enabled = true;
+            }
+            if (Input.GetKeyDown("escape"))
+            {
+                volverMenuPrincipal();
             }
         }
 
@@ -98,5 +100,10 @@ public class LevelManager2 : MonoBehaviour {
     public void cargarLaberinto()
     {
         LevelLoader("Game_Scenes/Labyrinth/MainMenuLabyrinth");
+    }
+
+    public void volverMenuPrincipal()
+    {
+        SceneManager.LoadScene("Main_menu/Scenes/Main Menu");
     }
 }

@@ -40,12 +40,14 @@ public class LevelManager : MonoBehaviour
             }
             if (Input.GetKeyDown("4"))
             {
-                //cargarSpaceShooter();
-                //(GameObject.Find("Main_Menu2").GetComponent(typeof(LabMovement)) as MonoBehaviour).enabled = false;
                 this.gameObject.SetActive(false);
                 (this.GetComponent(typeof(LevelManager)) as MonoBehaviour).enabled = false;
                 mainMenu2.SetActive(true);
                 (mainMenu2.GetComponent(typeof(LevelManager2)) as MonoBehaviour).enabled = true;
+            }
+            if (Input.GetKeyDown("escape"))
+            {
+                volverMenuPrincipal();
             }
         }
         
@@ -81,8 +83,6 @@ public class LevelManager : MonoBehaviour
             }
             if (Input.GetKeyDown("4") || numberFingers == 4)
             {
-                //cargarSpaceShooter();
-                //(GameObject.Find("Main_Menu2").GetComponent(typeof(LabMovement)) as MonoBehaviour).enabled = false;
                 this.gameObject.SetActive(false);
                 (this.GetComponent(typeof(LevelManager)) as MonoBehaviour).enabled = false;
                 mainMenu2.SetActive(true);
@@ -113,5 +113,10 @@ public class LevelManager : MonoBehaviour
     public void cargarPPT()
     {
         LevelLoader("Game_Scenes/PPT");
-    }    
+    }
+
+    public void volverMenuPrincipal()
+    {
+        SceneManager.LoadScene("Main_menu/Scenes/Main Menu");
+    }
 }
