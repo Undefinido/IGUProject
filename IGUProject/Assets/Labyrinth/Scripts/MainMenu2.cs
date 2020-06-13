@@ -49,37 +49,40 @@ public class MainMenu2 : MonoBehaviour {
                     GoBackToLeapifySelector();
                 }
             }
-            int numberFingers = 0;
-            handplayer = hands[0];
-            fingers = handplayer.Fingers;
-            foreach (Finger f in fingers)
+            else
             {
-                if (f.IsExtended)
+                int numberFingers = 0;
+                handplayer = hands[0];
+                fingers = handplayer.Fingers;
+                foreach (Finger f in fingers)
                 {
-                    numberFingers++;
+                    if (f.IsExtended)
+                    {
+                        numberFingers++;
+                    }
                 }
-            }
-            if (numberFingers == 1)    // Continues the game one level ahead
-            {
-                PlayIntermedio();
-            }
-            else if (numberFingers == 2)  // Leaves the game
-            {
-                PlayDificil();
+                if (numberFingers == 1)    // Continues the game one level ahead
+                {
+                    PlayIntermedio();
+                }
+                else if (numberFingers == 2)  // Leaves the game
+                {
+                    PlayDificil();
 
-            }
-            else if (numberFingers == 3)
-            {
-                PlayMuyDificil();
-            }
-            else if (numberFingers == 4)
-            {
-                MainMenu1.SetActive(true);
-                this.gameObject.SetActive(false);
-            }
-            else if (numberFingers == 5)
-            {
-                GoBackToLeapifySelector();
+                }
+                else if (numberFingers == 3)
+                {
+                    PlayMuyDificil();
+                }
+                else if (numberFingers == 4)
+                {
+                    MainMenu1.SetActive(true);
+                    this.gameObject.SetActive(false);
+                }
+                else if (numberFingers == 5)
+                {
+                    GoBackToLeapifySelector();
+                }
             }
         }
         if (wait == 100) wait = 0;

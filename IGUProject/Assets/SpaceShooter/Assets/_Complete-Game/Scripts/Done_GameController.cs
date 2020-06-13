@@ -78,10 +78,7 @@ public class Done_GameController : MonoBehaviour
                     }
                     if ((handplayer.GetThumb().IsExtended && numberFingers == 1) || Input.GetKey("1"))
                     {
-                        inicio.gameObject.SetActive(false);
-                        this.gameObject.SetActive(true);
-                        started = true;
-                        Start();
+                        iniciarJuego();
                     }
                 }
             }

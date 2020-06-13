@@ -107,11 +107,14 @@ public class Ball : MonoBehaviour {
                     }
                     if ((handplayer.GetThumb().IsExtended && numberFingers == 1) || Input.GetKey("1"))
                     {
-                        inicio.gameObject.SetActive(false);
-                        this.gameObject.SetActive(true);
-                        started = true;
+                        iniciarJuego();
                     }
                 }
+            }
+
+            if (Input.GetKey("1"))
+            {
+                iniciarJuego();
             }
             return;
         }
@@ -421,6 +424,13 @@ public class Ball : MonoBehaviour {
             i++;
         }
         Start();
+    }
+
+    public void iniciarJuego()
+    {
+        inicio.gameObject.SetActive(false);
+        this.gameObject.SetActive(true);
+        started = true;
     }
 
     public void volverAlMenu()

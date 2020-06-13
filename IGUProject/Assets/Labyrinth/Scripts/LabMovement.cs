@@ -5,6 +5,7 @@ using Leap;
 using Leap.Unity;
 using Leap.Unity.Attributes;
 using System;
+using UnityEngine.SceneManagement;
 
 public class LabMovement : MonoBehaviour
 {
@@ -12,28 +13,45 @@ public class LabMovement : MonoBehaviour
     public Hand handplayer;
     public List<Finger> fingers;
     Controller controller;
+    Scene scene;
+    bool started = false;
+    public GameObject inicio;
 
     // Start is called before the first frame update
     void Start()
     {
         controller = new Controller();
-        Frame frame = controller.Frame();
-        if (frame != null)
-        {
-            List<Hand> hands = frame.Hands;
-            if (hands.Count == 0)
-            {
-                return;
-            }
-            antPosition = hands[0];
-            actPosition = hands[0];
-        }
+        scene = SceneManager.GetActiveScene();
     }
 
     // Update is called once per frame
     void Update()
     {
         Frame frame = controller.Frame();
+        if (!started && scene.name == "Labyrinth") //is tutorial
+        {
+            List<Hand> hands = frame.Hands;
+            if (hands.Count == 0)
+            {
+                return;
+            }
+            int numberFingers = 0;
+            handplayer = hands[0];
+            fingers = handplayer.Fingers;
+            foreach (Finger f in fingers)
+            {
+                if (f.IsExtended)
+                {
+                    numberFingers++;
+                }
+            }
+            if ((handplayer.GetThumb().IsExtended && numberFingers == 1) || Input.GetKey("1"))
+            {
+                iniciarJuego();
+            }
+            return;
+        }
+
         if (frame != null)
         {
             List<Hand> hands = frame.Hands;
@@ -84,5 +102,11 @@ public class LabMovement : MonoBehaviour
 
             antPosition = actPosition;
         }
+    }
+
+    public void iniciarJuego()
+    {
+        inicio.gameObject.SetActive(false);
+        started = true;
     }
 }
