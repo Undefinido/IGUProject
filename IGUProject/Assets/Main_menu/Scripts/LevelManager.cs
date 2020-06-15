@@ -45,7 +45,7 @@ public class LevelManager : MonoBehaviour
                 mainMenu2.SetActive(true);
                 (mainMenu2.GetComponent(typeof(LevelManager2)) as MonoBehaviour).enabled = true;
             }
-            if (Input.GetKeyDown("escape"))
+            if (Input.GetKeyDown("5"))
             {
                 volverMenuPrincipal();
             }
@@ -87,6 +87,10 @@ public class LevelManager : MonoBehaviour
                 (this.GetComponent(typeof(LevelManager)) as MonoBehaviour).enabled = false;
                 mainMenu2.SetActive(true);
                 (mainMenu2.GetComponent(typeof(LevelManager2)) as MonoBehaviour).enabled = true;
+            }
+            if (Input.GetKeyDown("5") || numberFingers == 5)
+            {
+                volverMenuPrincipal();
             }
 
         }
