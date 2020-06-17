@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Main_menu/Scenes/Main Menu.unity
     guid: 4598cb4691c82b344ae2e056740900fd
   - enabled: 1
-    path: Assets/Game_Scenes/Labyrinth/MainMenuLabyrinth.unity
-    guid: 81dac83d6df47754099cabca38764399
+    path: Assets/Main_menu/Scenes/LevelChooserMenu.unity
+    guid: 6efd8033799c0c6ac856b4c59683f267
   - enabled: 1
     path: Assets/Game_Scenes/Bolera.unity
     guid: d7a508c02e949084ab67d4447918a036
@@ -24,8 +24,8 @@ EditorBuildSettings:
     path: Assets/Game_Scenes/Done_Main.unity
     guid: d6cf7ed2faf3b47eb8f72eaa9c1a495a
   - enabled: 1
-    path: Assets/Main_menu/Scenes/LevelChooserMenu.unity
-    guid: 6efd8033799c0c6ac856b4c59683f267
+    path: Assets/Game_Scenes/Labyrinth/MainMenuLabyrinth.unity
+    guid: 81dac83d6df47754099cabca38764399
   - enabled: 1
     path: Assets/Game_Scenes/Labyrinth/Labyrinth.unity
     guid: 30a0d167d9a842c489c77afd8b113696
