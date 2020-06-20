@@ -193,24 +193,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
---- !u!114 &44014056
+--- !u!114 &44014056 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11435192, guid: b9c7aaf0d314cb847a3b2a20e893f1b6,
     type: 2}
   m_PrefabInternal: {fileID: 88300356}
-  m_GameObject: {fileID: 655505413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 025cc0fa7b46aa541aba29d28d35ac09, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _isHeadMounted: 0
-  _temporalWarping: {fileID: 0}
-  _frameOptimization: 0
-  _overrideDeviceType: 0
-  _overrideDeviceTypeWith: 1
-  _updateHandInPrecull: 0
 --- !u!1 &66905546
 GameObject:
   m_ObjectHideFlags: 0
@@ -334,7 +322,6 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b9c7aaf0d314cb847a3b2a20e893f1b6, type: 2}
-  m_RootGameObject: {fileID: 655505413}
   m_IsPrefabParent: 0
 --- !u!1 &145281319
 GameObject:
@@ -4348,10 +4335,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "El juego consiste en vencer al rival, marcando, \nen su porter\xEDa. El
-    que llegue a 7 puntos, ser\xE1 el ganador. \nMueve la mano hacia arriba o abajo
-    para mover tu pala, la de la izquierda.\nExtiende el pulgar hacia arriba para
-    comenzar."
+  m_Text: "El juego consiste en vencer al rival marcando en su porter\xEDa. \nEl que
+    llegue a 5 puntos, ser\xE1 el ganador. \nMueve la mano hacia arriba o abajo para
+    mover tu pala, la de la izquierda.\nExtiende el pulgar hacia arriba para comenzar."
 --- !u!222 &517080906
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4524,63 +4510,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &655505413
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 166326, guid: b9c7aaf0d314cb847a3b2a20e893f1b6, type: 2}
-  m_PrefabInternal: {fileID: 88300356}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 655505416}
-  - component: {fileID: 655505415}
-  - component: {fileID: 44014056}
-  - component: {fileID: 655505414}
-  m_Layer: 0
-  m_Name: LeapHandController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &655505414
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11406336, guid: b9c7aaf0d314cb847a3b2a20e893f1b6,
-    type: 2}
-  m_PrefabInternal: {fileID: 88300356}
-  m_GameObject: {fileID: 655505413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c592f16851a620743868a31232613370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ModelsParent: {fileID: 0}
-  ModelPool: []
---- !u!114 &655505415
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11471522, guid: b9c7aaf0d314cb847a3b2a20e893f1b6,
-    type: 2}
-  m_PrefabInternal: {fileID: 88300356}
-  m_GameObject: {fileID: 655505413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 215a4d49fc705b74a9d3c5cbfa2c9601, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &655505416
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 432918, guid: b9c7aaf0d314cb847a3b2a20e893f1b6, type: 2}
-  m_PrefabInternal: {fileID: 88300356}
-  m_GameObject: {fileID: 655505413}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: -0.17, z: 0.338}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &678899409
 GameObject:
@@ -4755,7 +4684,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &761206426
 MonoBehaviour:
   m_ObjectHideFlags: 0
