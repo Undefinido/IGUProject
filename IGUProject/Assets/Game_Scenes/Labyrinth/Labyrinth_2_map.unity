@@ -3062,6 +3062,7 @@ MonoBehaviour:
         z: 0
         w: 0
   fingers: []
+  inicio: {fileID: 0}
 --- !u!1 &1146128297
 GameObject:
   m_ObjectHideFlags: 0
@@ -3582,8 +3583,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\xA1Genial! Llegaste a la salida, alza un dedo para continuar o pulsa en
-    el recuadro con el rat\xF3n"
+  m_Text: "\xA1Genial! Llegaste a la salida, alza el dedo pulgar para continuar"
 --- !u!222 &1823921780
 CanvasRenderer:
   m_ObjectHideFlags: 0

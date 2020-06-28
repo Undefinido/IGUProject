@@ -469,7 +469,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\xA1Genial! Llegaste a la salida, alza un dedo para continuar"
+  m_Text: "\xA1Genial! Llegaste a la salida, alza el dedo pulgar para continuar"
 --- !u!222 &280415361
 CanvasRenderer:
   m_ObjectHideFlags: 0

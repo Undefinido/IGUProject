@@ -61,25 +61,25 @@ public class MainMenu2 : MonoBehaviour {
                         numberFingers++;
                     }
                 }
-                if (numberFingers == 1)    // Continues the game one level ahead
+                if (numberFingers == 1 || Input.GetKeyDown("1"))    
                 {
                     PlayIntermedio();
                 }
-                else if (numberFingers == 2)  // Leaves the game
+                else if (numberFingers == 2 || Input.GetKeyDown("2"))  
                 {
                     PlayDificil();
 
                 }
-                else if (numberFingers == 3)
+                else if (numberFingers == 3 || Input.GetKeyDown("3"))
                 {
                     PlayMuyDificil();
                 }
-                else if (numberFingers == 4)
+                else if (numberFingers == 4 || Input.GetKeyDown("4"))
                 {
                     MainMenu1.SetActive(true);
                     this.gameObject.SetActive(false);
                 }
-                else if (numberFingers == 5)
+                else if (numberFingers == 5 || Input.GetKeyDown("5"))
                 {
                     GoBackToLeapifySelector();
                 }

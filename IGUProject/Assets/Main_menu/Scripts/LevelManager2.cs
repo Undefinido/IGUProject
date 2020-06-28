@@ -66,22 +66,22 @@ public class LevelManager2 : MonoBehaviour {
                     numberFingers++;
                 }
             }
-            if (numberFingers == 1)
+            if (numberFingers == 1 || Input.GetKeyDown("1"))
             {
                 cargarSpaceShooter();
             }
-            if (numberFingers == 2)
+            if (numberFingers == 2 || Input.GetKeyDown("2"))
             {
                 cargarLaberinto();
             }
-            if ( numberFingers == 4)
+            if ( numberFingers == 4 || Input.GetKeyDown("4"))
             {
                 this.gameObject.SetActive(false);
                 (this.GetComponent(typeof(LevelManager2)) as MonoBehaviour).enabled = false;
                 mainMenu1.SetActive(true);
                 (mainMenu1.GetComponent(typeof(LevelManager)) as MonoBehaviour).enabled = true;
             }
-            if (Input.GetKeyDown("5") || numberFingers == 5)
+            if (numberFingers == 5 || Input.GetKeyDown("5"))
             {
                 volverMenuPrincipal();
             }
